@@ -1,0 +1,258 @@
+:root {
+  /* cores */
+  --deep-space: #071229;
+  --surface: #1F2B44;
+  --neon-cyan: #00E5FF;
+  --electric-magenta: #FF4EA3;
+  --warm-gold: #FFC857;
+  --text-light: #E6EEF6;
+  --muted: #AAB6D1;
+  /* fontes */
+  --font-title: "Orbitron", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  /* navBar */
+  --nav-height: 100px;
+  --nav-height-scrolled: calc(var(--nav-height) * 0.8);
+  /* 20% menor */
+  --name-size: 2.4rem;
+  --name-size-scrolled: calc(var(--name-size) * 0.8);
+  --link-size: 1.2rem;
+  --link-size-scrolled: calc(var(--link-size) * 0.8);
+  --link-margin: 25px;
+  --link-margin-scrolled: calc(var(--link-margin) * 0.8);
+  /* padding lateral da navbar */
+  --nav-padding: 3rem;
+  --nav-padding-scrolled: 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: var(--text-light) !important;
+  text-decoration: none !important;
+  font-family: var(--font-title);
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  background: var(--deep-space);
+  color: var(--text-light);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  height: 200vh;
+}
+
+main {
+  margin: calc(var(--nav-height) * 1.65) 2.5%;
+}
+
+.card {
+  background: linear-gradient(180deg, var(--surface), rgba(31, 43, 68, 0.85));
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--neon-cyan), #00c4e0);
+  color: #021123;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.badge {
+  background: var(--warm-gold);
+  color: #071229;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--nav-padding);
+  background: var(--surface);
+  transition:
+    height 220ms cubic-bezier(.2, .8, .2, 1),
+    padding 220ms cubic-bezier(.2, .8, .2, 1),
+    background 220ms ease,
+    box-shadow 220ms ease;
+  will-change: height, padding;
+}
+
+.navBar.scrolled {
+  height: var(--nav-height-scrolled);
+  padding: 0 var(--nav-padding-scrolled);
+  /* ligeiro sombreamento para distinguir do conteúdo */
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+}
+
+.name {
+  font-size: var(--name-size);
+  font-weight: 700;
+  transition: font-size 220ms cubic-bezier(.2, .8, .2, 1), transform 220ms;
+  white-space: nowrap;
+}
+
+.navBar.scrolled .name {
+  font-size: var(--name-size-scrolled);
+}
+
+.nav-link {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-link>li {
+  margin: var(--link-margin);
+  font-size: var(--link-size);
+  transition: font-size 220ms cubic-bezier(.2, .8, .2, 1);
+}
+
+.navBar.scrolled .nav-link>li {
+  font-size: var(--link-size-scrolled);
+  margin: var(--link-margin-scrolled);
+}
+
+.selectNavBar {
+  color: var(--neon-cyan) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 5px;
+}
+
+.nav-link a:hover {
+  color: var(--neon-cyan) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 5px;
+}
+
+#home {
+  margin-top: 15%;
+  margin-bottom: 250px;
+}
+
+#about,
+#education,
+#skills {
+  margin: 250px 0;
+}
+
+#homeText p:first-child,
+#AboutText p:first-child,
+#EducationTitle,
+#SkillsTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#homeText p:nth-of-type(2) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#homeImg {
+  padding: 0 5%;
+}
+
+#AboutText p:nth-of-type(2),
+#AboutText p:nth-of-type(3) {
+  text-align: justify;
+}
+
+.EducationCard,
+.SkillCard {
+  margin: 20px;
+  background-color: var(--surface);
+  padding: 25px;
+  padding-bottom: 25px;
+}
+
+.EducationCard {
+  cursor: pointer;
+}
+
+.EducationCardTitle,
+.SkillCard p:first-child {
+  color: var(--warm-gold) !important;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+.EducationCardMainSkillsTitle {
+  color: var(--warm-gold) !important;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.EducationCard ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 1.25rem;
+}
+
+.skillsInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SkillCardSkillList {
+  margin: 20px 0;
+}
+
+#contact {
+  background-color: var(--muted);
+  padding: 50px 100px 75px 100px;
+}
+
+#contactTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000 !important;
+}
+
+#contactText {
+  padding: 1.25rem;
+}
+
+#contactText>p {
+  color: #000 !important;
+}
+
+.ConctactCard {
+  background-color: var(--surface);
+  margin: 10px;
+  padding: 10px;
+}
+
+.ConctactCard>i {
+  margin: 7.5px;
+  font-size: 1.25rem;
+}
+
+.ConctactCard>span,
+.ConctactCard>a {
+  margin: 7.5px;
+  font-size: 1.15rem;
+}
