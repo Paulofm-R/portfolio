@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 type Props = {
   title: string;
   course: string;
@@ -10,6 +12,13 @@ type Props = {
 };
 
 const EducationCard = ({ title, course, type, date, grade, skillsList, isExpanded, onToggle }: Props) => {
+
+  const navigate = useNavigate();
+
+  const GoToProjects = (title: string) => {
+    const encoded = encodeURIComponent(title); // evitar problemas com espaços
+    navigate(`/projects/${encoded}`)
+  }
 
   return (
     <div
@@ -31,7 +40,7 @@ const EducationCard = ({ title, course, type, date, grade, skillsList, isExpande
             ))}
           </ul>
           <div className="text-center">
-            <button className="btn btn-primary">View Projects</button>
+            <button className="btn btn-primary" onClick={() => GoToProjects(title)}>View Projects</button>
           </div>
         </div>
       )}

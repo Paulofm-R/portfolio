@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 type LinkItem = { to: string; label: string };
 
@@ -18,6 +19,9 @@ const NavBar: React.FC = () => {
   const lastY = useRef(0);
   const ticking = useRef(false);
   const threshold = 10; //px antes de considerar "scolled"
+
+  const navigate = useNavigate();
+  const location = useLocation();
 
   // toggla classe scrolled conforme scroll
   useEffect(() => {
@@ -60,7 +64,7 @@ const NavBar: React.FC = () => {
       {
         root: null,
         // top negativo = ignoira a área da navbar fixa
-        rootMargin: `-${navHeight + navHeight/2}px 0px -40% 0px`,
+        rootMargin: `-${navHeight + navHeight / 2}px 0px -40% 0px`,
         threshold: [0, 0.1, 0.25, 0.5, 0.75, 1],
       }
     );
@@ -68,6 +72,35 @@ const NavBar: React.FC = () => {
     sectionElements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
+
+  // Handler quando clicam num link do menu
+  const handleLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    to: string
+  ) => {
+    // se o utilizador pretender abrir em nova aba (middle click / ctrl/cmd), deixa o default acontecer:
+    if (e.metaKey || e.ctrlKey || e.button === 1) return;
+
+    e.preventDefault();
+
+    // estamos já na página inicial?
+    if (location.pathname === "/") {
+      // scroll suave para a secção
+      const el = document.querySelector(to) as HTMLElement | null;
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+        // actualiza o hash sem forçar reload (opcional)
+        history.replaceState(null, "", to);
+      } else {
+        // se não existir, podemos actualizar o location.hash e o IntersectionObserver cuidará do resto
+        history.replaceState(null, "", to);
+      }
+    } else {
+      // não estamos na "/" → navegar para a home com hash
+      // navegar para "/#aboutSection" — no carregamento da home, adiciona um effect para ler location.hash e scrollear
+      navigate(`/${to}`);
+    }
+  };
 
   return (
     <nav ref={navRef} className="navBar" aria-label="Main navigation">
@@ -77,6 +110,7 @@ const NavBar: React.FC = () => {
           <li key={to}>
             <a
               href={to}
+              onClick={(e) => handleLinkClick(e, to)}
               className={activeTo === to ? "selectNavBar" : undefined}
             >
               {label}

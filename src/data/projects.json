@@ -1,0 +1,290 @@
+[
+    {
+        "Acronym": "ISEP",
+        "Name": "Instituto Superior de Engenharia do Porto",
+        "Degree": "Master",
+        "Course": "Computer Engineering: Games, Graphics and Interactive Systems",
+        "ProjectsList": [
+            {
+                "name": "Gesture and Voice Interaction Systems Applied to Games",
+                "description": "This project aimed to explore and create games using accessibility systems (hand tracking and voice commands).",
+                "skills": [
+                    "Unity",
+                    "Python",
+                    "C#",
+                    "Hand-Tracking",
+                    "Voice Command",
+                    "Accessibility"
+                ],
+                "visual": {
+                    "type": "video",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Quiz_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/Color_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/PongSolo_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/PongMulti_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/Reaction_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/Maths_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/Paints_HD.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/Damas3D.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/Quiz_VC.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/PongSolo_VC.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/PongMulti_VC.mp4",
+                        "https://phyrowns.sirv.com/Portfolio/DIMEI/Memory_VC.mp4"
+                    ]
+                },
+                "logo": "",
+                "startDate": "10-2024",
+                "endDate": "09-2024"
+            },
+            {
+                "name": "Cardifacts",
+                "description": "This project presents an inclusive serious game that transforms historical locations into collectible cards using augmented reality and geolocation. Its goal is to teach history and culture in an interactive and engaging way, encouraging players to visit real points of interest. The game features strategic card battles, Alexa voice control integration, and accessibility options for visually impaired players, such as tactile feedback and auditory descriptions. The difficulty dynamically adapts to player performance, ensuring a balanced and inclusive experience across different platforms (mobile and PC).",
+                "skills": [
+                    "Unity",
+                    "C#",
+                    "Figma",
+                    "UI/UX",
+                    "Voice Command",
+                    "Accessibility"
+                ],
+                "visual": {
+                    "type": "image",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Login%20Screen.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Register%20Screen.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Card%20Collection.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Card%20Collection%20Player%20Decks.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Create%20New%20Deck.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Settings.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Tutorial.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Choosing%20the%20deck.png",
+                        "https://phyrowns.sirv.com/Portfolio/Labagi/Card%20Battle.png"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Labagi/logo.png",
+                "startDate": "10-2024",
+                "endDate": "12-2024"
+            },
+            {
+                "name": "Cyber Guardians",
+                "description": "An educational cooperative game where young players help older adults learn about cybersecurity through minigames. Players work together to identify phishing attempts, create strong passwords, avoid online fraud, and remove malware, all while promoting intergenerational communication. With a 16-bit pixel art style and a simple interface inspired by desktop environments, the game promotes digital literacy, critical thinking, and safe online behavior. Through immediate feedback and a dynamic scoring system, players learn to respond quickly and apply their knowledge effectively, making cybersecurity education accessible, engaging, and cooperative.",
+                "skills": [
+                    "Unity",
+                    "C#",
+                    "Serious Game"
+                ],
+                "visual": {
+                    "type": "image",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Josel/Landing.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/Create.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/home.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/password.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/achievement.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/phishing.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/phishing2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/popups.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/face_chat.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/face_chat2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/quiz.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/matchs.png",
+                        "https://phyrowns.sirv.com/Portfolio/Josel/Chat.png"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Josel/logo.png",
+                "startDate": "03-2024",
+                "endDate": "05-2024"
+            },
+            {
+                "name": "Hope's Game",
+                "description": "A point-and-click puzzle adventure set in a post-apocalyptic world where humanity’s last survivors fight to restore hope. Players take on the role of a scientist equipped with a time machine, traveling between three distinct timelines — the devastated present, the early days of the pandemic, and the world before the outbreak — to uncover the origin of a deadly virus and find a cure. With rich 2D visuals and atmospheric environments that contrast decay and renewal, the game combines exploration, storytelling, and intricate puzzles. Hope’s Echo delivers an emotional experience centered on resilience, choice, and the enduring power of hope in humanity’s darkest hour.",
+                "skills": [
+                    "Unity",
+                    "C#",
+                    "Unity 2D",
+                    "Game Design"
+                ],
+                "visual": {
+                    "type": "video",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/DESDJ/Hope's%20Game.mp4"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/DESDJ/Hopes_Echo_Logo.png",
+                "startDate": "11-2023",
+                "endDate": "01-2024"
+            },
+            {
+                "name": "Handword - The Game",
+                "description": "A word puzzle game blending hangman and crossword mechanics, developed in Adobe Animate CC with HTML and JavaScript. The board takes the shape of a # symbol, giving the game a unique and playful twist.",
+                "skills": [
+                    "Adobe Animation",
+                    "JavaScript",
+                    "ActionScript"
+                ],
+                "visual": {
+                    "type": "video",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/TESIM/Hangword%20-%20The%20Game.mp4"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/TESIM/Hangword_TheGame_Logo.png",
+                "startDate": "11-2023",
+                "endDate": "01-2024"
+            },
+            {
+                "name": "Blender",
+                "description": "This project showcases several aspects of 3D creation in Blender, including animation, texturing, geometry nodes, reflections, and mesh deformation.",
+                "skills": [
+                    "Blender",
+                    "3D Modeling",
+                    "3D Animation"
+                ],
+                "visual": {
+                    "type": "image",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/animation_1.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/animation_2.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/animation_3.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/animation_4.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/ax.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/ax_2.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/geometry_node.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/geometry_node_2.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/geometry_node_3.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/glass.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/glass_2.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/sofa.png",
+                        "https://phyrowns.sirv.com/Portfolio/COSIG/sofa_2.png"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/COSIG/sofa.png",
+                "startDate": "11-2023",
+                "endDate": "01-2024"
+            }
+        ]
+    },
+    {
+        "Acronym": "ESMAD",
+        "Name": "Escola Superior Média Arte e Design",
+        "Degree": "Bachelor's degree",
+        "Course": "Web Computing Technologies and Systems",
+        "ProjectsList": [
+            {
+                "name": "Lumiere",
+                "description": "A film and series catalog website that allows users to browse detailed information about each title, including synopses, cast, ratings, and popularity. The platform includes social features such as a comment system, star-based ratings, and the ability to add titles to favorites or to the “My List” section for later viewing. In addition to the catalog, the project features an interactive games area with thematic quizzes that challenge users knowledge about various films and series, making the experience more dynamic and engaging. The main goal of the project is to provide an intuitive tool for discovery, organization, and interaction, combining information and entertainment within a single digital environment.",
+                "skills": [
+                    "Vue.js",
+                    "HTML/CSS",
+                    "Node.js",
+                    "MongoDB",
+                    "Gamification"
+                ],
+                "visual": {
+                    "type": "image",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/HomePage1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/HomePage2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/HomePage3.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Catalogo1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Catalogo2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Catalogo3.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Catalogo4.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/movie1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Games1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Games2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Games3.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Games4.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Profiel1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Profiel2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Lumiere/Profiel2.png"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Lumiere/LogoEntrada.svg",
+                "startDate": "01-2023",
+                "endDate": "19-2022"
+            },
+            {
+                "name": "Flappy Airplane",
+                "description": "Project focused on creating a game inspired by the style of Flappy Bird, but with a different theme. The game features an airplane pilot that the player controls while navigating through the sky, avoiding birds that appear along the way. The objective is to survive as long as possible while the difficulty gradually increases, combining simple controls with fast reflexes to create an engaging and challenging experience.",
+                "skills": [
+                    "Unity 2D",
+                    "C#",
+                    "Game Design"
+                ],
+                "visual": {
+                    "type": "video",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Flappy%20Airplane/Flappy%20Airplane.mp4"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Flappy%20Airplane/flappyairplane_logo.png",
+                "startDate": "02-2022",
+                "endDate": "03-2022"
+            },
+            {
+                "name": "Robot Party Simulator",
+                "description": "Project focused on creating a 3D object using the three.module.js library (HTML and JavaScript) and developing an animation with it. Each participant designed a unique robot model, and in this case, the created model was an astromech droid inspired by Star Wars. The animation brought the robot to life by making it move and dance, showcasing 3D modeling, basic rigging logic, and animation techniques within a real-time web environment.",
+                "skills": [
+                    "JavaScript",
+                    "HTML/CSS",
+                    "3D Modeling"
+                ],
+                "visual": {
+                    "type": "video",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Robot%20Party/Robot%20Party.mp4"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Robot%20Party/Robot%20Party.png",
+                "startDate": "12-2021",
+                "endDate": "01-2022"
+            },
+            {
+                "name": "Asteroids Game",
+                "description": "Asteroids-inspired game developed with HTML5 Canvas and JavaScript, where the player controls a spaceship that must destroy asteroids, avoid collisions, and accumulate points. The project includes three gameplay modifiers: mouse-controlled shooting for more precise aiming, a teleport with a short cooldown that allows the spaceship to quickly reposition, and a special attack with a longer cooldown that completely destroys an asteroid depending on its stage, adding a strategic layer to resource management. The game features progressive difficulty, collision detection, a lives and scoring system, focusing on fluid and engaging gameplay.",
+                "skills": [
+                    "JavaScript",
+                    "HTML/CSS",
+                    "Game 2D"
+                ],
+                "visual": {
+                    "type": "video",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Asteroid%20Game/Asteroids%20game.mp4"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Asteroid%20Game/Logo.svg",
+                "startDate": "11-2021",
+                "endDate": "12-2021"
+            },            {
+                "name": "Tatudobem",
+                "description": "Educational website project designed to teach children about COVID-19. The site includes a storytelling section that explains, in a simple and friendly way, what COVID-19 is and how to prevent it or stay safe. It also features an area with educational mini-games, allowing children to learn through play and reinforcing important health concepts in an engaging and interactive way.",
+                "skills": [
+                    "JavaScript",
+                    "HTML/CSS",
+                    "DOM",
+                    "OOP - Object-Oriented Programming"
+                ],
+                "visual": {
+                    "type": "image",
+                    "itens": [
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/LandingPage.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/Register.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/Login.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/HomePage1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/HomePage2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/Stories1.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/Stories2.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/GamePage.png",
+                        "https://phyrowns.sirv.com/Portfolio/Tatudobem/prefil.png"
+                    ]
+                },
+                "logo": "https://phyrowns.sirv.com/Portfolio/Tatudobem/Tatinhas-p%C3%A1gina-inicial.png",
+                "startDate": "04-2021",
+                "endDate": "06-2021"
+            }
+        ]
+    }
+]

@@ -34,6 +34,10 @@
   box-sizing: border-box;
 }
 
+section[id] {
+  scroll-margin-top: calc(var(--nav-height) + 8px);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -47,7 +51,6 @@ body {
   background: var(--deep-space);
   color: var(--text-light);
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  height: 200vh;
 }
 
 main {
@@ -255,4 +258,46 @@ main {
 .ConctactCard>a {
   margin: 7.5px;
   font-size: 1.15rem;
+}
+
+#projects {
+  margin: calc(var(--nav-height) * 1.5) 0;
+  padding: 2.5%;
+}
+
+.projectRow {
+  cursor: pointer;
+  background-color: var(--surface);
+  margin: 75px 25px 25px 0;
+  padding: 25px;
+}
+
+.projectRow p{
+  margin: 30px 0;
+}
+
+.projectName{
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--warm-gold) !important;
+  margin-top: 0px !important;
+}
+
+.custom-modal-bg {
+  background-color: var(--surface);
+  color: var(--text-light);
+  border-radius: 10px;
+}
+
+.custom-backdrop{
+  background-color: rgba(0,0,0,0.85) !important;
+}
+
+.custom-modal-title{
+  color: var(--warm-gold) !important;
+  font-weight: 700;
+}
+
+.custom-modal-footer button{
+  color: #000 !important;
 }

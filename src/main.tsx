@@ -8,8 +8,10 @@ import App from './App.tsx'
 import "@fontsource/orbitron/400.css";
 import "@fontsource/orbitron/700.css";
 
+const rawBase = import.meta.env.BASE_URL;
+
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter basename={rawBase}>
     <App />
   </BrowserRouter>,
 )
