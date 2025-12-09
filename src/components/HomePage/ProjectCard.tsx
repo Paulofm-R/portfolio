@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-import { data } from "react-router-dom";
 
 type Props = {
   title: string;
