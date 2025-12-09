@@ -18,7 +18,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              paulofilipe_100pt@hotmail.com
+              paulofiliperodrigues@outlook.pt
             </a>
           </div>
           <div className="ConctactCard">

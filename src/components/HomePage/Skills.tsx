@@ -18,8 +18,12 @@ const SkillsList = [
       },
       {
         skill: "JavaScript",
-        percentage: 35,
+        percentage: 30,
       },
+      {
+        skill: "GDevelop",
+        percentage: 20
+      }
     ],
   },
   {
