@@ -218,6 +218,11 @@ main {
   padding-left: 1.25rem;
 }
 
+.EducationCard .iconExpand{
+  text-align: center;
+  font-size: 1.25rem;
+}
+
 .skillsInfo {
   display: flex;
   justify-content: space-between;

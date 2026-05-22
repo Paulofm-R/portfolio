@@ -11,30 +11,32 @@ const Contact = () => {
           <p>Response time may take up to 48 hours.</p>
         </div>
         <div className="col-4">
-          <div className="ConctactCard">
-            <i className="bi bi-envelope-at-fill"></i>
-            <a
-              href="mailto:@hotmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              paulofiliperodrigues@outlook.pt
-            </a>
-          </div>
-          <div className="ConctactCard">
-            <i className="bi bi-linkedin"></i>
-            <a
-              href="https://linkedin.com/in/paulo-rodrigues-661414229"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              linkedin.com/in/paulo-rodrigues-661414229
-            </a>
-          </div>
-          <div className="ConctactCard">
-            <i className="bi bi-geo-alt-fill"></i>
-            <span>Porto, Portugal</span>
-          </div>
+          <address>
+            <div className="ConctactCard">
+              <i className="bi bi-envelope-at-fill"></i>
+              <a
+                href="mailto:@hotmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                paulofiliperodrigues@outlook.pt
+              </a>
+            </div>
+            <div className="ConctactCard">
+              <i className="bi bi-linkedin"></i>
+              <a
+                href="https://linkedin.com/in/paulo-rodrigues-661414229"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/paulo-rodrigues-661414229
+              </a>
+            </div>
+            <div className="ConctactCard">
+              <i className="bi bi-geo-alt-fill"></i>
+              <span>Porto, Portugal</span>
+            </div>
+          </address>
         </div>
       </div>
     </div>

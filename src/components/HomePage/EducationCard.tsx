@@ -11,27 +11,40 @@ type Props = {
   onToggle: () => void;
 };
 
-const EducationCard = ({ title, course, type, date, grade, skillsList, isExpanded, onToggle }: Props) => {
-
+const EducationCard = ({
+  title,
+  course,
+  type,
+  date,
+  grade,
+  skillsList,
+  isExpanded,
+  onToggle,
+}: Props) => {
   const navigate = useNavigate();
 
   const GoToProjects = (title: string) => {
     const encoded = encodeURIComponent(title); // evitar problemas com espaços
-    navigate(`/projects/${encoded}`)
-  }
+    navigate(`/projects/${encoded}`);
+  };
 
   return (
-    <div
-      className="col-3 EducationCard"
-      onClick={onToggle}
-    >
+    <div className="col-3 EducationCard" onClick={onToggle}>
       <p className="EducationCardTitle">{title}</p>
       <p>{course}</p>
       <p>{type}</p>
       <p>{date}</p>
       <p>Final Average Grade: {grade}</p>
+      {!isExpanded && (
+        <div className="iconExpand">
+          <i className="bi bi-chevron-down"></i>
+        </div>
+      )}
       {isExpanded && (
         <div>
+          <div className="iconExpand">
+            <i className="bi bi-chevron-up"></i>
+          </div>
           <hr />
           <p className="EducationCardMainSkillsTitle">Main Skills Acquired</p>
           <ul>
@@ -40,7 +53,12 @@ const EducationCard = ({ title, course, type, date, grade, skillsList, isExpande
             ))}
           </ul>
           <div className="text-center">
-            <button className="btn btn-primary" onClick={() => GoToProjects(title)}>View Projects</button>
+            <button
+              className="btn btn-primary"
+              onClick={() => GoToProjects(title)}
+            >
+              View Projects
+            </button>
           </div>
         </div>
       )}
