@@ -103,7 +103,7 @@ main {
   will-change: height, padding;
 }
 
-.navBar.scrolled {
+.navBar.shrunk {
   height: var(--nav-height-scrolled);
   padding: 0 var(--nav-padding-scrolled);
   /* ligeiro sombreamento para distinguir do conteúdo */
